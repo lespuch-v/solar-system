@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <div id="space"></div>
+        <div id="solar-system">
+            <div id="sun"></div>
+            <div id="mercury-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="mercury" class="planet" data-name="Mercury"></div>
+                </div>
+            </div>
+            <div id="venus-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="venus" class="planet" data-name="Venus"></div>
+                </div>
+            </div>
+            <div id="earth-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="earth" class="planet" data-name="Earth"></div>
+                    <div class="moon-orbit" style="width: 20px; height: 20px; animation: moon-orbit 2.7s linear infinite;">
+                        <div class="moon" style="width: 3px; height: 3px; top: 0; left: 50%;" data-name="Moon"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="mars-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="mars" class="planet" data-name="Mars"></div>
+                    <div class="moon-orbit" style="width: 15px; height: 15px; animation: moon-orbit 1.3s linear infinite;">
+                        <div class="moon" style="width: 2px; height: 2px; top: 0; left: 50%;" data-name="Phobos"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="jupiter-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="jupiter" class="planet" data-name="Jupiter"></div>
+                    <div class="moon-orbit" style="width: 40px; height: 40px; animation: moon-orbit 7.1s linear infinite;">
+                        <div class="moon" style="width: 4px; height: 4px; top: 0; left: 50%;" data-name="Io"></div>
+                    </div>
+                    <div class="moon-orbit" style="width: 50px; height: 50px; animation: moon-orbit 10.9s linear infinite;">
+                        <div class="moon" style="width: 4px; height: 4px; top: 0; left: 50%;" data-name="Europa"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="saturn-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="saturn" class="planet" data-name="Saturn"></div>
+                    <div class="moon-orbit" style="width: 35px; height: 35px; animation: moon-orbit 5.8s linear infinite;">
+                        <div class="moon" style="width: 3px; height: 3px; top: 0; left: 50%;" data-name="Titan"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="uranus-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="uranus" class="planet" data-name="Uranus"></div>
+                    <div class="moon-orbit" style="width: 25px; height: 25px; animation: moon-orbit 4.1s linear infinite;">
+                        <div class="moon" style="width: 2px; height: 2px; top: 0; left: 50%;" data-name="Titania"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="neptune-orbit" class="orbit">
+                <div class="planet-system">
+                    <div id="neptune" class="planet" data-name="Neptune"></div>
+                    <div class="moon-orbit" style="width: 30px; height: 30px; animation: moon-orbit 6.3s linear infinite;">
+                        <div class="moon" style="width: 3px; height: 3px; top: 0; left: 50%;" data-name="Triton"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tooltip" class="tooltip"></div>
+</body>
+<script src="scripts.js"></script>
+</html>
